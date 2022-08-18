@@ -1,0 +1,29 @@
+{
+  "name": "weather-cli",
+  "version": "1.0.0",
+  "description": "CLI for getting wheather",
+  "main": "weather.js",
+	"bin": {
+		"weather": "weather.js"
+	},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kathriciya/weather-cli.git"
+  },
+  "keywords": [
+    "cli",
+    "weather"
+  ],
+  "author": "Ekaterina Bazhenova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kathriciya/weather-cli/issues"
+  },
+  "homepage": "https://github.com/kathriciya/weather-cli#readme",
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
