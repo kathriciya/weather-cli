@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "CLI for getting wheather",
   "main": "weather.js",
-	"bin": {
-		"weather": "weather.js"
-	},
+  "bin": {
+    "weather": "weather.js"
+  },
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -24,6 +25,8 @@
   },
   "homepage": "https://github.com/kathriciya/weather-cli#readme",
   "dependencies": {
-    "axios": "^0.27.2"
+    "axios": "^0.27.2",
+    "chalk": "^5.0.1",
+    "dedent-js": "^1.0.1"
   }
 }
