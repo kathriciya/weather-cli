@@ -20,4 +20,4 @@ const printHelp = () => {
 	);
 };
 
-export {printHelp};
+export {printHelp, printSuccess, printError};
